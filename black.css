@@ -402,9 +402,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #special_formatting_text { color: #949494; }
 
-#message_edit_container .inline_message_input_container, #message_edit_container .inline_message_input_container.with_file_upload, #threads_msgs .inline_message_input_container, #threads_msgs .inline_message_input_container.with_file_upload, #reply_container.upload_in_threads .inline_message_input_container, #reply_container.upload_in_threads .inline_message_input_container.with_file_upload { background: #545454; border-color: #363636; color: #e6e6e6; }
+#message_edit_container .inline_message_input_container, #message_edit_container .inline_message_input_container.with_file_upload, #threads_msgs .inline_message_input_container, #threads_msgs .inline_message_input_container.with_file_upload, #reply_container.upload_in_threads .inline_message_input_container, #reply_container.upload_in_threads .inline_message_input_container.with_file_upload { background: #545454; border-color: #363636; color: #ef2525; }
 
-.inline_message_input_container .ql-container { border-color: #545454; color: #1d1c1d; }
+.inline_message_input_container .ql-container { border-color: #545454; color: #e6e6e6; }
 
 .inline_message_input_container .ql-container.focus, .inline_message_input_container .ql-container:active, .inline_message_input_container .ql-container:hover { border-color: #828282; }
 
@@ -1167,13 +1167,13 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 .bot_label { background: #000; color: #949494; }
 
 @keyframes to-grey { 0% { color: inherit; }
-  100% { color: #949494; } }
+    100% { color: #949494; } }
 
 @keyframes fade-background-highlight { 0% { background: #545454; }
-  100% { background: transparent; } }
+    100% { background: transparent; } }
 
 @keyframes border_focus_animation { 0% { box-shadow: 0 0 4px 0.25px #545454, 0 0 0 0.5px #828282; }
-  100% { box-shadow: 0 0 4px 0 #545454, 0 0 0 0 #828282; } }
+    100% { box-shadow: 0 0 4px 0 #545454, 0 0 0 0 #828282; } }
 
 .c-message_attachment { color: #e6e6e6; }
 
@@ -1621,11 +1621,11 @@ body > pre { background: #828282; }
 
 #threads_msgs_scroller_div .threads_caught_up_divider .divider_line { border-top: 1px solid #363636; }
 
-#threads_msgs_scroller_div .threads_caught_up_divider .divider_label { background: #545454; color: #e6e6e6; }
+#threads_msgs_scroller_div .threads_caught_up_divider .divider_label { background: #545454; color: #ef2525; }
 
 #threads_msgs_scroller_div.loading { background: none; }
 
-#threads_msgs_scroller_div.loading::before { color: #e6e6e6; }
+#threads_msgs_scroller_div.loading::before { color: #ef2525; }
 
 #threads_view_banner.messages_banner { background: #363636; }
 
@@ -1637,7 +1637,7 @@ body > pre { background: #828282; }
 
 ts-thread { background: #222; }
 
-ts-thread .reply_input_container .inline_message_input_container form textarea { border-color: #363636; color: #545454; }
+ts-thread .reply_input_container .inline_message_input_container form textarea { border-color: #363636; color: #ef2525; }
 
 ts-thread .reply_input_container .collapsed_input_placeholder, ts-thread .reply_input_container .join_channel_from_thread_container, ts-thread .reply_input_container .reply_limited_in_general { background: #363636; border-color: #363636; }
 
@@ -1647,7 +1647,7 @@ ts-thread ts-message.new_reply { background: #222; }
 
 ts-thread ts-message.new_reply:hover { background: #363636; }
 
-ts-thread .thread_header .thread_channel_name a { color: #e6e6e6; }
+ts-thread .thread_header .thread_channel_name a { color: #ef2525; }
 
 ts-thread .thread_header .thread_action_btns button { color: #949494; }
 
@@ -3522,7 +3522,7 @@ table tr:first-child th:not(:only-of-type) { border-bottom-color: #000; }
 .enterprise_search_bar::before { color: #e6e6e6; }
 
 @keyframes color_fade { from { color: #949494; }
-  to { color: #e6e6e6; } }
+    to { color: #e6e6e6; } }
 
 .file_header .title a { color: #949494; }
 
@@ -3923,7 +3923,7 @@ table.gray_header_border tr:first-child th:not(:only-of-type) { border-bottom-co
 .legal-main a { border-bottom-color: #545454; }
 
 @media screen and (min-width: 67.8125rem) { .legal-main .c-nav--sidebar__listheader { color: #e6e6e6; }
-  .legal-main .c-nav--sidebar__listitem a.is-selected { color: #949494; } }
+    .legal-main .c-nav--sidebar__listitem a.is-selected { color: #949494; } }
 
 .legal-main .t-contains-subtle-links a:not(.c-button) { color: #e6e6e6; }
 
