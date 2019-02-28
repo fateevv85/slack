@@ -1617,7 +1617,7 @@ body > pre { background: #828282; }
 
 #threads_msgs_scroller_div:not(.loading)::before { background: #222; }
 
-#threads_msgs_scroller_div.loading::before { color: #949494; }
+#threads_msgs_scroller_div.loading::before { color: #bf360c; }
 
 #threads_msgs_scroller_div .threads_caught_up_divider .divider_line { border-top: 1px solid #363636; }
 
@@ -1649,11 +1649,11 @@ ts-thread ts-message.new_reply:hover { background: #363636; }
 
 ts-thread .thread_header .thread_channel_name a { color: #ef2525; }
 
-ts-thread .thread_header .thread_action_btns button { color: #949494; }
+ts-thread .thread_header .thread_action_btns button { color: #bf360c; }
 
 ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
-#convo_tab .thread_participants, ts-thread .thread_participants { color: #949494; }
+#convo_tab .thread_participants, ts-thread .thread_participants { color: #bf360c; }
 
 #convo_loading_indicator { background-image: none; }
 
@@ -2391,7 +2391,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #convo_container .convo_flexpane_divider .reply_count { background: #222; }
 
-#convo_container ts-conversation ts-message.selected .message_content .thread_channel_link { color: #949494; }
+#convo_container ts-conversation ts-message.selected .message_content .thread_channel_link { color: #bf360c; }
 
 #convo_tab .message_input, #convo_tab textarea#msg_text { color: #e6e6e6; }
 
