@@ -100,7 +100,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .channels_list_holder ul li { text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
-.channels_list_holder ul li .channel_name, .channels_list_holder ul li .group_name, .channels_list_holder ul li .im_name, .channels_list_holder ul li .mpim_name, .channels_list_holder ul li > a { background: #363636; color: #bf360c !important; }
+.channels_list_holder ul li .channel_name, .channels_list_holder ul li .group_name, .channels_list_holder ul li .im_name, .channels_list_holder ul li .mpim_name, .channels_list_holder ul li > a { background: #363636; color: rgba(230, 230, 230, 0.8) !important; }
 
 .channels_list_holder ul li .channel_name:hover, .channels_list_holder ul li .group_name:hover, .channels_list_holder ul li .im_name:hover, .channels_list_holder ul li .mpim_name:hover, .channels_list_holder ul li > a:hover { background: #222 !important; border-bottom-right-radius: 0.25rem; border-top-right-radius: 0.25rem; }
 
@@ -1054,7 +1054,7 @@ ts-message .recap_highlight a { color: #e6e6e6; }
 
 ts-message.delete_mode, ts-message.multi_delete_mode { background: rgba(191, 54, 12, 0.75); }
 
-ts-message.automated .message_body { color: #bf360c; }
+ts-message.automated .message_body { color: rgba(230, 230, 230, 0.8); }
 
 ts-message .action_hover_container { border: 1px solid #363636; }
 
@@ -1411,7 +1411,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 #archives_return a { color: #e6e6e6; }
 
-#archives_return a:hover { color: #bf360c; }
+#archives_return a:hover { color: rgba(230, 230, 230, 0.8); }
 
 #messages_unread_status { background: #545454; }
 
@@ -1433,7 +1433,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 #archives_end_div_msg_lim h1, #end_display_msg_lim h1 { color: #e6e6e6; }
 
-#archives_end_div_msg_lim h2, #end_display_msg_lim h2 { color: #bf360c; }
+#archives_end_div_msg_lim h2, #end_display_msg_lim h2 { color: rgba(230, 230, 230, 0.8); }
 
 code { background-color: #000; border: 1px solid #363636; color: #e6e6e6; }
 
